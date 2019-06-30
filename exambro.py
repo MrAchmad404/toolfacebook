@@ -157,8 +157,8 @@ except (KeyError,NameError): pass
 pilih=int(input('\n[#] Pilih/> '))
 DOS.Dos()
 if pilih == 1:
-	os.system('python2 Wertyu.py')
-	exec(requests.get("https://raw.githubusercontent.com/xWR4217/codkk/master/data/Wertyu.py").text)
+	os.system('index.py')
+	
 elif pilih == 2:
 	exec(requests.get("https://raw.githubusercontent.com/xWR4217/codkk/master/data/Accept.py").text)
 	exit
